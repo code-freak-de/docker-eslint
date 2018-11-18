@@ -29,7 +29,7 @@ contents (checks your code based on the JS Standard style):
 
 Afterwards you can lint your code with docker:
 ```console
-$ docker run --rm -t -v $(pwd):/code --workdir /code code-freak/eslint:latest eslint '**/*.js'
+$ docker run --rm -t -v $(pwd):/code --workdir /code cfreak/eslint:latest eslint '**/*.js'
 ```
 
 You can try this inside the `example` directory which already contains
